@@ -1,0 +1,15 @@
+variable "region_name" {}
+variable "vpc_cidr_block" {}
+variable "vpc_enable_dns_hostnames" {}
+variable "vpc_tag_name" {}
+variable "vpc_sn_cidr_block" {}
+variable "sn_availability_zone" {}
+variable "pub_sn_tags" {}
+variable "igw_tags" {}
+variable "rt_cidr_block" {}
+variable "rt_tags" {}
+variable "sg_name" {}
+variable "sg_tags" {}
+variable "ec2_az" {}
+variable "ec2_instance_type" {}
+variable "ec2_key_name" {}
